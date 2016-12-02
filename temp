@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Dec  1 16:53:29 2016
+
+@author: osboxes
+"""
+
+original_list = ['RT @haussera: Access to Apple Pay customer data, no, but another way? everybody wins - MarketWatch http://t.co/Fm3LE2iTkY', "Landed in the US, tired w horrible migrane. The only thing helping- Connie's new song on repeat. #SoGood #Nashville https://t.co/AscR4VUkMP", 'I wish jacob would be my cinnamon apple', "I've collected 9,112 gold coins! http://t.co/T62o8NoP09 #iphone, #iphonegames, #gameinsight", 'HAHAHA THEY USED THE SAME ARTICLE AS INDEPENDENT http://t.co/mC7nfnhqSw', '@hot1079atl Let me know what you think of the new single "Mirage "\nhttps://t.co/k8DJ7oxkyg', 'RT @SWNProductions: Hey All so we have a new iTunes listing due to our old one getting messed up please resubscribe via the following https…', 'Shawty go them apple bottoms jeans and the boots with the furrrr with furrrr the whole club is looking at her🎶🎶', 'I highly recommend you use MyMedia - a powerfull download manager for the iPhone/iPad.  http://t.co/TWmYhgKwBH', 'Alusckが失われた時間の異常を解消しました http://t.co/peYgajYvQY http://t.co/sN3jAJnd1I', 'Театр радует туземцев! Теперь мой остров стал еще круче! http://t.co/EApBrIGghO #iphone, #iphonegames, #gameinsight', 'RT @AppIeOfficiel: Our iPhone 7  📱  http://t.co/d2vCOCOTqt', 'Я выполнил задание "Подключаем резервы"! Заходите ко мне в гости! http://t.co/ZReExwwbxh #iphone #iphonegames #gameinsight', "RT @Louis_Tomlinson: @JennSelby Google 'original apple logo' and you will see the one printed on my shirt that you reported on. Trying to l…", "I've collected 4,100 gold coins! http://t.co/JZLQJdRtLG #iphone, #iphonegames, #gameinsight", "I've collected 28,800 gold coins! http://t.co/r3qXNHwUdp #iphone, #iphonegames, #gameinsight", 'RT @AppIeOfficiel: Our iPhone 7  📱  http://t.co/d2vCOCOTqt']
+
+keywordFilter = set(['eat','cinnamon','fruit'])
+
+filtered_list = [str for str in original_list if not any(i in str for i in keywordFilter)]
+                 
+                 
+                 
+final_list = []
+for i in original_list:
+    temp = []
+    for k in i.split(" "):
+        if not any(i for i in stopwords.words("dutch") if i in k) and not any(i for i in stopWordsCalls if i in k):
+            temp.append(k)
+    final_list.append(" ".join(temp))   
+
+
+
+words = co.Counter(nltk.corpus.words.words())
+stopWords =co.Counter( nltk.corpus.stopwords.words() )
+k=[i for i in k if i in words and i not in stopWords]
+s=" ".join(k)
+c = co.Counter(k)              
