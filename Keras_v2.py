@@ -31,21 +31,21 @@ x = x.iloc[:].values
 y = y.iloc[:].values
 
 ###################################
-tk = keras.preprocessing.text.Tokenizer(nb_words=5000, filters=keras.preprocessing.text.base_filter(), lower=True, split=" ")
+tk = keras.preprocessing.text.Tokenizer(nb_words=30000, filters=keras.preprocessing.text.base_filter(), lower=True, split=" ")
 tk.fit_on_texts(x)
 
 x = tk.texts_to_sequences(x)
 
 
 ###################################
-max_len = 100
+max_len = 1000
 print("max_len: " + str(max_len))
 print('Pad sequences (samples x time)')
 
 x = sequence.pad_sequences(x, maxlen=max_len)
 
 #########################
-max_features = 5000
+max_features = 50000
 model = Sequential()
 print('Build model...')
 
