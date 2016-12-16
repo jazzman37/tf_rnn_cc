@@ -15,6 +15,8 @@ http://deeplearning.net/tutorial/lenet.html
 https://github.com/colah/NLP-RNNs-Representations-Post/blob/master/index.md - NLP, recursive neural networks
 
 
+http://www.gitxiv.com/?view=best
+
 
 http://www.gitxiv.com/posts/n68Xz9yG5SDKbHoQM/practical-neural-networks-for-nlp-from-theory-to-code - We will start with simple classification models (logistic regression and multilayer perceptrons) and cover more advanced patterns that come up in NLP such as recurrent networks for sequence tagging and prediction problems, structured networks (e.g., compositional architectures based on syntax trees), structured output spaces (sequences and trees), attention for sequence-to-sequence transduction, and feature induction for complex algorithm states.
 
