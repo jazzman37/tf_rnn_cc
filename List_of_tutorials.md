@@ -4,6 +4,10 @@
 FULL 2 days training:
 http://www.bayareadlschool.org/
 http://usa.baidu.com/deep-speech-lessons-from-deep-learning/
+http://cs.stanford.edu/~acoates/ba_dls_speech2016.pdf
+https://pythonprogramming.net/tensorflow-deep-neural-network-machine-learning-tutorial/
+http://deeplearning.net/tutorial/lenet.html
+https://github.com/colah/NLP-RNNs-Representations-Post/blob/master/index.md
 
 
 http://www.gitxiv.com/posts/n68Xz9yG5SDKbHoQM/practical-neural-networks-for-nlp-from-theory-to-code - We will start with simple classification models (logistic regression and multilayer perceptrons) and cover more advanced patterns that come up in NLP such as recurrent networks for sequence tagging and prediction problems, structured networks (e.g., compositional architectures based on syntax trees), structured output spaces (sequences and trees), attention for sequence-to-sequence transduction, and feature induction for complex algorithm states.
