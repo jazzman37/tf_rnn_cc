@@ -1,9 +1,13 @@
 
-*LIST OF TUTORIALS*
+*LIST OF TUTORIALS  RELATED TO TEXT ANALYSIS*
 
 FULL 2 days training:
 http://www.bayareadlschool.org/
 
+
+http://www.gitxiv.com/posts/n68Xz9yG5SDKbHoQM/practical-neural-networks-for-nlp-from-theory-to-code - We will start with simple classification models (logistic regression and multilayer perceptrons) and cover more advanced patterns that come up in NLP such as recurrent networks for sequence tagging and prediction problems, structured networks (e.g., compositional architectures based on syntax trees), structured output spaces (sequences and trees), attention for sequence-to-sequence transduction, and feature induction for complex algorithm states.
+
+http://www.gitxiv.com/posts/XNRqA7jyJvqHhQgKF/text-understanding-from-scratch - This article demontrates that we can apply deep learning to text understanding from character-level inputs all the way up to abstract text concepts, using temporal convolutional networks (ConvNets). We apply ConvNets to various large-scale datasets, including ontology classification, sentiment analysis, and text categorization.
 
 https://github.com/garnachod/ClassificationDocs - API REST, for document classification in categories. WorkFlow LUIGI Get Documents from DB -> generate one file per language "Stopwords filter and Lemmatization" -> Doc2Vec training -> Neural Network training. WorkFlow API GET Query -> Doc Solr -> doc embedding -> Neural Network -> JSON Response
 
