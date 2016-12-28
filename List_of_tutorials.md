@@ -2,10 +2,18 @@
 *LIST OF TUTORIALS  RELATED TO TEXT ANALYSIS*
 
 *TO DO*
+
 https://www.quora.com/What-is-the-best-implemention-of-keyphrase-extraction-in-python/answer/Sujit-Pal?share=29c3626a -best implemention of keyphrase extraction in python
+
+http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0162721&type=printable - Medical full solution for document classification
+
+http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0162721 - (same as previous) SparkText: Biomedical Text Mining on Big Data Framework
+
+https://console.ng.bluemix.net/data/notebooks/f5b61f7e-483e-4dbf-bd72-2866a782e709/view?access_token=997a565775c0e72479c35312ddf43d9e9e4b57616b88ae0e244b4ae5e449ec28 - IBM text classification with Spark
 
 
 *READINGS:*
+
 https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a#.9w4ymcb8b - How to do Speech Recognition with Deep Learning
 
 https://handong1587.github.io/deep_learning/2015/10/09/dl-tutorials.html - List of links for readings
@@ -15,6 +23,10 @@ http://sujitpal.blogspot.nl/2016/12/document-similarity-using-various-text.html 
 https://medium.com/@aniketvartak/nuts-and-bolts-of-applying-deep-learning-summary-84b8a8e873d5#.l5w4g7ynh - Nuts and Bolts of Applying Deep Learning — Summary
 
 https://www.analyticsvidhya.com/blog/2016/12/21-deep-learning-videos-tutorials-courses-on-youtube-from-2016/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29
+
+http://blog.mathandpencil.com/a-huge-list-of-machine-learning-repositories/
+
+https://thomaswdinsmore.com
 
 *TRAININGS:*
 
@@ -32,8 +44,11 @@ http://cs.stanford.edu/~acoates/ba_dls_speech2016.pdf
 
 https://github.com/BinRoot/TensorFlow-Book - Machine Learning with TensorFlow
 
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/lecture-videos/
+
 
 *TUTORIALS and IDEAS:*
+
 https://pythonprogramming.net/tensorflow-deep-neural-network-machine-learning-tutorial/
 
 http://deeplearning.net/tutorial/lenet.html
@@ -44,9 +59,16 @@ https://github.com/colah/NLP-RNNs-Representations-Post/blob/master/index.md - NL
 
 http://sujitpal.blogspot.nl/2016/08/kerasjupyter-notebooks-for-my.html - (https://www.youtube.com/watch?v=N4QW1p3-tlw) Keras/Jupyter notebooks for my Gennovation Talk @ San Francisco
 
+https://vcrsoft.wordpress.com/2016/10/16/unsupervised-deep-learning-for-vertical-conversational-chatbots/
+
 http://www.gitxiv.com/?view=best
 
 http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/
+
+http://www.wildml.com/2015/12/implementing-a-cnn-for-text-classification-in-tensorflow/
+
+http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-2-implementing-a-language-model-rnn-with-python-numpy-and-theano/
+
 
 http://www.gitxiv.com/posts/n68Xz9yG5SDKbHoQM/practical-neural-networks-for-nlp-from-theory-to-code - We will start with simple classification models (logistic regression and multilayer perceptrons) and cover more advanced patterns that come up in NLP such as recurrent networks for sequence tagging and prediction problems, structured networks (e.g., compositional architectures based on syntax trees), structured output spaces (sequences and trees), attention for sequence-to-sequence transduction, and feature induction for complex algorithm states.
 
