@@ -3,6 +3,8 @@
 
 *TO DO*
 
+http://neuralnetworksanddeeplearning.com/chap1.html - book for DL
+
 https://www.quora.com/What-is-the-best-implemention-of-keyphrase-extraction-in-python/answer/Sujit-Pal?share=29c3626a -best implemention of keyphrase extraction in python
 
 http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0162721&type=printable - Medical full solution for document classification
