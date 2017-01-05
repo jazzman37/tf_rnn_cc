@@ -2,7 +2,6 @@
 """
 Created on Tue Nov 22 01:19:05 2016
 
-@author: KlimentM
 """
 
 import keras.preprocessing.text
@@ -50,8 +49,8 @@ model = Sequential()
 print('Build model...')
 
 model = Sequential()
-model.add(Embedding(max_features, 128, input_length=max_len, dropout=0.2))
-model.add(LSTM(128, dropout_W=0.2, dropout_U=0.2))
+model.add(Embedding(max_features, 1024, input_length=max_len, dropout=0.9))
+model.add(LSTM(512, dropout_W=0.9, dropout_U=0.9))
 model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
