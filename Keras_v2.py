@@ -30,7 +30,7 @@ x = x.iloc[:].values
 y = y.iloc[:].values
 
 ###################################
-tk = keras.preprocessing.text.Tokenizer(nb_words=30000, filters=keras.preprocessing.text.base_filter(), lower=True, split=" ")
+tk = keras.preprocessing.text.Tokenizer(nb_words=40000, filters=keras.preprocessing.text.base_filter(), lower=True, split=" ")
 tk.fit_on_texts(x)
 
 x = tk.texts_to_sequences(x)
@@ -50,10 +50,10 @@ print('Build model...')
 
 model = Sequential()
 model.add(Embedding(max_features, 1024, input_length=max_len, dropout=0.9))
-model.add(LSTM(512, dropout_W=0.9, dropout_U=0.9))
+model.add(LSTM(4096, dropout_W=0.9, dropout_U=0.9))
 model.add(Dense(1))
 model.add(Activation('sigmoid'))
 
 model.compile(loss='binary_crossentropy', optimizer='rmsprop', metrics=['accuracy'])
 
-model.fit(x, y=y, batch_size=32, nb_epoch=100, verbose=1, validation_split=0.2, shuffle=True)
+model.fit(x, y=y, batch_size=32, nb_epoch=50000, verbose=1, validation_split=0.2, shuffle=True)
