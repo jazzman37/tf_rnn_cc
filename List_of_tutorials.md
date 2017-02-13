@@ -16,6 +16,20 @@ https://console.ng.bluemix.net/data/notebooks/f5b61f7e-483e-4dbf-bd72-2866a782e7
 
 *READINGS:*
 
+AUTOMATIC RULE EXTRACTION FROM LONG SHORT TERM MEMORY NETWORKS - https://arxiv.org/pdf/1702.02540v1.pdf
+
+Exploiting Domain Knowledge via Grouped Weight Sharing with Application to Text Categorization - https://arxiv.org/abs/1702.02535v1
+
+Semi-Supervised QA with Generative Domain-Adaptive Nets - https://arxiv.org/abs/1702.02206v1
+
+Character-level Deep Conflation for Business Data Analytics - https://arxiv.org/abs/1702.02640v1
+
+Fine-grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks - https://arxiv.org/abs/1608.04207v3
+
+Coordinated Online Learning With Applications to Learning User Preferences - https://arxiv.org/abs/1702.02849v1
+
+Automatically Annotated Turkish Corpus for Named Entity Recognition and Text Categorization using Large-Scale Gazetteers - https://arxiv.org/abs/1702.02363v2
+
 https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a#.9w4ymcb8b - How to do Speech Recognition with Deep Learning
 
 https://handong1587.github.io/deep_learning/2015/10/09/dl-tutorials.html - List of links for readings
